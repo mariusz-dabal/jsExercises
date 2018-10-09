@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jimmy's Band</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Jimmy's Band</h1>
+        <p>Drum Kit</p>
+      </div>
+      <div class="drumkit-wrapper">
+        <div class="drum clap" value="65">
+          <div class="inner">
+            <kbd>A</kbd>
+            <span class="sound"></span>
+          </div>
+        </div>
+        <div class="drum boom" value="83">
+          <div class="inner">
+            <kbd>S</kbd>
+            <span class="sound"></span>
+          </div>
+        </div>
+        <div class="drum snare" value="68">
+          <div class="inner">
+            <kbd>D</kbd>
+            <span class="sound"></span>
+          </div>
+        </div>
+        <div class="drum tom" value="70">
+          <div class="inner">
+            <kbd>F</kbd>
+            <span class="sound"></span>
+          </div>
+        </div>
+        <div class="drum kick" value="71">
+          <div class="inner">
+            <kbd>G</kbd>
+            <span class="sound"></span>
+          </div>
+        </div>
+        <div class="drum tink" value="72">
+          <div class="inner">
+            <kbd>H</kbd>
+            <span class="sound"></span>
+          </div>
+        </div>
+        <div class="drum ride" value="74">
+          <div class="inner">
+            <kbd>J</kbd>
+            <span class="sound"></span>
+          </div>
+        </div>
+        <div class="drum hihat" value="75">
+          <div class="inner">
+            <kbd>K</kbd>
+            <span class="sound"></span>
+          </div>
+        </div>
+        <div class="drum ohihat" value="76">
+          <div class="inner">
+            <kbd>L</kbd>
+            <span class="sound"></span>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /.drumkit-wrapper -->
+
+    <audio value="65" src="sounds/clap.wav"></audio>
+    <audio value="75" src="sounds/hihat.wav"></audio>
+    <audio value="71" src="sounds/kick.wav"></audio>
+    <audio value="76" src="sounds/openhat.wav"></audio>
+    <audio value="83" src="sounds/boom.wav"></audio>
+    <audio value="74" src="sounds/ride.wav"></audio>
+    <audio value="68" src="sounds/snare.wav"></audio>
+    <audio value="70" src="sounds/tom.wav"></audio>
+    <audio value="72" src="sounds/tink.wav"></audio>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
